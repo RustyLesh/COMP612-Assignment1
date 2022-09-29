@@ -1,0 +1,8 @@
+﻿  Main.c
+d:\uni\cgp\assignment1\freeglut\main.c(22): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+Main.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+Main.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+Main.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+Main.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+freeglut\lib\freeglut.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\UNI\CGP\Assignment1\x64\Debug\Assignment.exe : fatal error LNK1120: 4 unresolved externals
