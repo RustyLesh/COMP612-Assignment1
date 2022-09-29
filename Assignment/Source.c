@@ -478,7 +478,6 @@ in init().
 
 void think(void)
 {
-	printf("Sha\n");
 	toggleLights();//TODO better light logic , eg slowly switch off and on the lights as it gets darker / lighter
 
 	updateNightFilter();
